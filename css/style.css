@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+
+/* Changes all text to Abel font*/
+*{
+    font-family: 'Abel', sans-serif;
+}
+
+body{
+    background:#f0f0f0;
+}
+
+/* Restore HR tag in bootstrap*/
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+    border-style: solid none;
+    border-width: 1px 0;
+    margin: 18px 0;
+  }
+
+/* Changes all headings to Anton font*/
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size:64px
+}
+h2{
+    font-size:48px
+}
+h3{
+    font-size:40px
+}
+h4{
+    font-size:32px
+}
+h5{
+    font-size:28px
+}
+
+.bg-red{
+    background: #e6563b
+}
+.bg-orange{
+    background: #dea03d
+}
+.bg-green{
+    background: #7cb06c
+}
+.bg-blue{
+    background: #00aba9
+}
+.bg-white{
+    background:#f0f0f0;
+}
+.bg-grey{
+    background:#e6e6e6;
+}
+
+.text-red{
+    color: #e6563b
+}
+.text-orange{
+    color: #EB0D3A
+}
+.text-green{
+    color: #EB0D3A
+}
+.text-blue{
+    color: #00aba9
+}
+.text-white{
+    color:#f0f0f0;
+}
+.text-grey{
+    color:#e6e6e6;
+}
+
+.logo{
+    width:105px;
+    height: 105px;
+}
+
+.circle{
+    /* max width keeps the column from sizing*/
+    max-width: 105px;
+    min-width: 105px;
+    height: 105px;
+    /* Creates the circle*/
+    border-radius: 50%;
+    color:white;
+    border: white solid 5px;
+}
+
+.logo img{
+    width:105px;
+}
+
+.brand{
+    font-size: 2em;
+}
+
+.work img{
+    border: solid #e6e6e6 5px;
+    border-radius: 5px;
+    width:90%;
+}
+
+.icon{
+    width:18px;
+    height:18px;
+    border-radius:50%;
+}
+
+.last img{
+    height: 42px;
+    width: 42px;
+
+}
+.twitter-text {
+    text-align: right;
+}
+.header-admin {
+    font-size: 20px;
+}
